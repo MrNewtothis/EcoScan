@@ -1,0 +1,27 @@
+.facebook-style-div {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.514);
+    /* padding: 15px; */
+    margin-bottom: 20px;
+    border-radius: 25px;
+    width: 600px;
+}
+
+.facebook-style-div img {
+    border-radius: 25px; 
+}
+
+.t1 {
+    text-align: left;
+}
+table {
+    margin: auto; /* Centers the table horizontally */
+    width: 80%; /* Adjust the width as needed */
+}
+
+/* To align the table to the left */
+.table-left {
+    margin: 0; /* Reset margin */
+    float: left;
+}

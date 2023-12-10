@@ -1,0 +1,103 @@
+body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+table {
+    align-items: center;
+}
+
+th, tr {
+    font-family: Montserrat;
+    color: white;
+}
+
+a.logo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    max-width: 900px;
+    max-height: 500px;
+    width: 100%;
+    border-radius: 30px;
+    background: rgba(217, 217, 217, 0.10);
+    box-shadow: -30.8px 30.8px 30.8px 0px rgba(255, 255, 255, 0.10) inset, 30.8px -30.8px 30.8px 0px rgba(165, 165, 165, 0.10) inset;
+    backdrop-filter: blur(30.799999237060547px);
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.form-inner-container {
+    flex: 7; /* 70% */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container {
+    margin: 20px;
+    max-width: 351px;
+    flex: 3; /* 30% */
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 25px;
+    background: rgba(32, 66, 16, 0.38);
+    box-shadow: 8px 8px 4px 0px rgba(0, 0, 0, 0.50);
+}
+
+img {
+    max-width: 401px;
+    padding: 3px;
+    height: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    font-family: Montserrat;
+    padding-left: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 280px;
+    height: 31px;
+    flex-shrink: 0;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
