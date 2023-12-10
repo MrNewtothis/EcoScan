@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/home.css">
     <title>About</title>
 
-</head>
+</head> 
 <body style=" 
             background-image: url('images/home.jpg'); 
             background-size: cover; 
